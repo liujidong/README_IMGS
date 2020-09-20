@@ -8,7 +8,7 @@ for %%i in ("%cd%") do set the_dir=%%~ni
 
 for /f %%i in ('dir /b README') do (
 
-	echo ^^![image]^(https://github.com/liujidong/%the_dir%/raw/master/README/%%i^) >> README.md
+	echo ^^![image]^(https://github.com/liujidong/%the_dir%/blob/master/README/%%i^) >> README.md
 
 )
 
